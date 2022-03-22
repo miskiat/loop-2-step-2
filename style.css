@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(0deg 0% 18%);
+  font-family: Roboto;
+}
+.yellow {
+  margin: 2rem auto;
+  background-color: hsl(54deg 98% 65%);
+  height: fit-content;
+  width: 30rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  font-weight: 400;
+}
+.cancel {
+  color: hsl(240deg 3% 71%);
+  font-size: 1.5rem;
+}
+.cancel:hover {
+  cursor: pointer;
+  color: rgb(92, 90, 90);
+}
+.bottom {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 1.5rem;
+}
+
+.white {
+  height: fit-content;
+  width: 30rem;
+  background-color: hsl(0deg 0% 100%);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  position: relative;
+}
+.man {
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  margin-top: -2rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.details {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 0.1px;
+  /* margin-top: 5rem; */
+}
+
+.name {
+  display: flex;
+  color: hsl(120deg 1% 71%);
+
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.first {
+  width: 80%;
+  padding-top: 1rem;
+}
+input {
+  border: 1px solid transparent;
+  outline: none;
+  border-bottom: 1px solid hsl(240deg 3% 71%);
+  width: 100%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+textarea {
+  border: none;
+  border-bottom: 1px solid hsl(240deg 3% 71%);
+  width: 425px;
+  height: 104px;
+  margin-bottom: 0.5rem;
+}
+
+.user {
+  margin-top: 3rem;
+}
